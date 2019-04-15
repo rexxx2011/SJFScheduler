@@ -20,7 +20,7 @@ for(i=0;i<n;i++)
 {
 for(j=0;j<n;j++)
 {
-if(at[i]<at[j])
+if(at[i]>at[j])
 {
 temp=pnum[j];
 pnum[j]=pnum[i];
